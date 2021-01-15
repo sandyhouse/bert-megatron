@@ -1,0 +1,9 @@
+2021-01-07 17:45:45,662-INFO: PUT 127.0.0.1/_worker/0
+2021-01-07 17:45:45,663-INFO: GET 127.0.0.1/_worker/1 , key not found: 1
+2021-01-07 17:45:45,665-INFO: PUT 127.0.0.1/_worker/1
+2021-01-07 17:45:45,665-INFO: GET 127.0.0.1/_worker/0 , key found: 0
+2021-01-07 17:45:45,665-INFO: GET 127.0.0.1/_worker/0 , key found: 0
+2021-01-07 17:45:45,672-INFO: DELETE 127.0.0.1/_worker/1
+2021-01-07 17:45:45,674-INFO: GET 127.0.0.1/_worker/1 , key found: 1
+2021-01-07 17:45:45,674-INFO: GET 127.0.0.1/_worker/1 , key found: 1
+2021-01-07 17:45:45,674-INFO: DELETE 127.0.0.1/_worker/0

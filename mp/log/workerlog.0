@@ -1,0 +1,38 @@
+grep: warning: GREP_OPTIONS is deprecated; please use an alias or script
+
+
+API is deprecated since 2.0.0 Please use FleetAPI instead.
+WIKI: https://github.com/PaddlePaddle/Fleet/blob/develop/markdown_doc/transpiler
+
+        
+server not ready, wait 3 sec to retry...
+not ready endpoints:['127.0.0.1:25387']
+here
+W1217 11:44:55.276721 82341 device_context.cc:320] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W1217 11:44:55.281148 82341 device_context.cc:330] device: 0, cuDNN Version: 7.6.
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+passed
+test_parallel_embedding passed.
+
+
+--------------------------------------
+C++ Traceback (most recent call last):
+--------------------------------------
+0   paddle::framework::SignalHandle(char const*, int)
+1   paddle::platform::GetCurrentTraceBackString[abi:cxx11]()
+
+----------------------
+Error Message Summary:
+----------------------
+FatalError: `Segmentation fault` is detected by the operating system.
+  [TimeInfo: *** Aborted at 1608176698 (unix time) try "date -d @1608176698" if you are using GNU date ***]
+  [SignalInfo: *** SIGSEGV (@0x10) received by PID 82341 (TID 0x7f011cb1b700) from PID 16 ***]
+
